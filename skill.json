@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:058264475941:function:4e00da89-4224-4e44-95d4-4188e9080d43:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:058264475941:function:4e00da89-4224-4e44-95d4-4188e9080d43:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:058264475941:function:4e00da89-4224-4e44-95d4-4188e9080d43:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:058264475941:function:4e00da89-4224-4e44-95d4-4188e9080d43:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "curiosidades de autos",
+          "summary": "Sample Short Description"
+        },
+        "es-MX": {
+          "name": "curiosidades de autos"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

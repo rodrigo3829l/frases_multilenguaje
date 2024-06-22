@@ -1,0 +1,39 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CuriositiIntent",
+          "samples": [
+            "I want to know something about cars",
+            "tell me a fact about cars",
+            "tell me a curiosity about cars"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "opens curiosities"
+    }
+  }
+}
